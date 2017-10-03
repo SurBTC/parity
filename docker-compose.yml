@@ -9,4 +9,3 @@ node:
     - 8546:8546
     - 30303:30303
     - 30303:30303/udp
-  command: ["--ui-interface","all","--jsonrpc-interface","all"]
