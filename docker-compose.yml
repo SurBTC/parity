@@ -1,0 +1,12 @@
+node:
+  image: parity/parity:stable
+  volumes: 
+    - ./config.toml:/root/.local/share/io.parity.ethereum/config.toml:ro
+  ports:
+    - 8080:8080
+    - 8180:8180
+    - 8545:8545
+    - 8546:8546
+    - 30303:30303
+    - 30303:30303/udp
+  command: ["--ui-interface","all","--jsonrpc-interface","all"]

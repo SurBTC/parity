@@ -1,0 +1,6 @@
+# This config should be placed in following path:
+#   ~/.local/share/io.parity.ethereum/config.toml
+
+[parity]
+# Ropsten Test Network
+chain = "ropsten"
